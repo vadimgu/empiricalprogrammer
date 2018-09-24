@@ -26,8 +26,8 @@ def modexp_period(a, N):
 
 Let's compute some periods for random values of $N$ and $a$.
 
-    
-```python    
+```python
+
 experiment = []
 
 for i in range(10000):
@@ -37,20 +37,23 @@ for i in range(10000):
     experiment.append((N, a, period_start, period))
 
 df = pd.DataFrame.from_records(experiment,
-                                columns=('N', 'a', 'period_start', 'period'))
-```    
+                                columns=('N', 'a', 'period_start', 'period')
+
+```
 
 Here's a sample of that experiment. We can see various period values. Not all
 periods start at 1.
 
-    
-```python    
+```python
+
 df.sample(10)
-```    
+
+```
 
 <p/>
 
 ```
+
                N       a  period_start  period 
     5113  257501  148409             1  257500 
     7859  134749   63133             1   64860 
@@ -87,7 +90,7 @@ labels = [r'$\frac{1}{%d}$' % loc for loc in xticks]
 plt.xticks(locs, labels)
 ```    
 
-![](/wp-content/uploads/2018/03/modexp2-1-1024x351.png)
+![](/images/modexp2-1.png)
 
 It looks like all the numbers that produce a period $r = N - 1$ are
 primes. Here's a sample where period is equal to $N - 1$

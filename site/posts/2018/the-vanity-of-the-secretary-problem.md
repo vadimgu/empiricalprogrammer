@@ -123,9 +123,9 @@ is the upper bound for $c$ and not the optimum.
 When solving a secretary like problem don't be fooled by the vanity of the
 $^n/_e$ rule.
 
-Variant | Optimizes | Stopping Rule  
----|---|---  
-Binary Payoff (original) | Vanity | $^n/_e$
-Cardinal Payoff          | Rank   | $ \sqrt\{n\} $
-Quality Payoff | Utility | $\frac\{(n - 2)\log\{\log\{n\}\}\} \{\log(\{\frac\{(n-1)^2\}\{2\pi\}\})\} + 1$
+Variant         | Optimizes | Stopping Rule  
+----------------|-----------|---------------------- 
+Binary Payoff   | Vanity    | $^n/_e$
+Cardinal Payoff | Rank      | $ \sqrt\{n\} $
+Quality Payoff  | Utility   | $\frac\{(n - 2)\log\{\log\{n\}\}\} \{\log(\{\frac\{(n-1)^2\}\{2\pi\}\})\} + 1$
 

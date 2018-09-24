@@ -11,6 +11,7 @@ As programmers we develop a sense for program execution. We can step through
 code and follow the execution of simple programs. A simple while loop
 shouldn’t puzzle us right?
 
+.. TEASER_END
 
 Let’s look at this simple function:
 

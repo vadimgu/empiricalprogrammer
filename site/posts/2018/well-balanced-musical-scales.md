@@ -9,7 +9,7 @@ compact notation for the Major scale is `2212221`.
 
 First let's represent all twelve tones on a chromatic circle.
 
-![](/images/schale_chromatic.png)
+![](/images/scale_chromatic.png)
 
 This type of plot is called a Pitch Constellation. Each red line represents a
 note and its position relative to the root. A few pitch constellations:
